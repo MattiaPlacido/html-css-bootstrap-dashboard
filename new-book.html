@@ -65,23 +65,27 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 mb-1">
                 <label for="book-genre">Genere</label>
                 <br>
-                <select class="custom-select" id="book-genre">
-                    <option selected>Choose...</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+                <select class="form-select" aria-label="book-genre">
+                    <option selected>Scegli il genere</option>
+                    <option value="1">Fantasy</option>
+                    <option value="2">Sci-Fi</option>
+                    <option value="3">Thriller</option>
+                    <option value="4">Commedia</option>
+                    <option value="5">Horror</option>
+                    <option value="6">Saggio</option>
+                    <option value="7">Romantico</option>
                 </select>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 my-1">
                 <div class="form-group">
                     <label for="pub-year">Anno di Pubblicazione</label>
                     <input type="number" class="form-control" id="pub-year" placeholder="Inserisci l'anno">
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 mt-1">
                 <div class="form-group">
                     <label for="exampleInputPassword1">ISBN#</label>
                     <input type="text" class="form-control" id="ISBN" placeholder="Inserisci il codice ISBN#">
@@ -100,7 +104,9 @@
             </label>
         </div>
         <div class="align-self-start">
-            <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
+            <button type="submit" class="btn btn-primary"><a href="index.html"
+                    class="text-white text-decoration-none">Aggiungi Libro
+                </a></button>
         </div>
     </main>
 </body>
